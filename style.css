@@ -1,0 +1,100 @@
+style.css
+body {
+	front-family: courier;
+	color: #404042;
+	front-size: 18px;
+	front-weight: bold;
+}
+
+h1{
+	color: #FF08B5;
+	front-family: chivo;
+}
+h2{
+	color: #310EFF;
+	front-family: chivo;
+}
+h3 {
+	color: #5A31FF;
+	front-family: chivo;
+}
+a{
+	color: #00040A;
+	front-weight:  bold;
+	text-decoration: none;
+	transition: 3s;
+}
+
+p{
+	color: #00040A;
+	front-weight: bold;
+	front-family: courier;
+}
+.slogan {
+  width: 800px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/verre.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: #FF08B5;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.button-white {
+  background-color: #1A48E3;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-white:hover {
+  background-color: #FF08B5;
+  color: white;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: #404042;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
